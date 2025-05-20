@@ -7,7 +7,7 @@ This project aims to develop a machine learning model using XGBoost to predict f
 The data is sourced from the [English Premier League & Championship Full Dataset] from KAGGLE (https://www.kaggle.com/datasets/panaaaaa/english-premier-league-and-championship-full-dataset/data) which provides comprehensive statistics for football matches across EPL and seasons.
 
 ## Features
-The model will take into account various features including team performance, player statistics, historical head-to-head results, and more.
+The model will take into account various features including team performance, player statistics.
 
 ## Dataset Description
 
@@ -46,11 +46,15 @@ Additional features will be created based on the initial dataset, including:
 - Seasonal performance metrics
 - Advanced statistics derived from the raw data
 
+## Feature Choosen
+'H Shots', 'A Shots', 'H SOT', 'A SOT', 'H Corners', 'A Corners',
+'H Yellow', 'A Yellow', 'H Red', 'A Red', 'HomeForm', 'AwayForm'
+
 ## Model
 The project uses XGBoost, a gradient boosting framework that is efficient and provides state-of-the-art results for many machine learning problems.
 
 ## Evaluation
-The model will be evaluated using appropriate metrics such as accuracy, precision, recall, and F1-score for classification tasks.
+The model will be evaluated using appropriate metrics such as accuracy, precision and recall.
 
 ## Usage
 Instructions for running the model and making predictions will be added as the project develops.
@@ -59,8 +63,6 @@ Instructions for running the model and making predictions will be added as the p
 - Python 3.8+
 - Required packages will be listed in requirements.txt
 
-## License
-[Add license information here]
-
 ## Contact
-[Add contact information here]
+@HansHemsey on GitHub
+@ragertank on Discord
