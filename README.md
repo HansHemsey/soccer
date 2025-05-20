@@ -6,13 +6,6 @@ This project aims to develop a machine learning model using XGBoost to predict f
 ## Data Source
 The data is sourced from the [English Premier League & Championship Full Dataset] from KAGGLE (https://www.kaggle.com/datasets/panaaaaa/english-premier-league-and-championship-full-dataset/data) which provides comprehensive statistics for football matches across EPL and seasons.
 
-## Project Structure
-- `data/`: Contains the raw and processed data files
-- `notebooks/`: Jupyter notebooks for data exploration and model development
-- `src/`: Source code for the data processing and model training
-- `models/`: Saved model files
-- `results/`: Output files from model evaluations
-
 ## Features
 The model will take into account various features including team performance, player statistics, historical head-to-head results, and more.
 
